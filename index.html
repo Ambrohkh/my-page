@@ -4,14 +4,15 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
 	<title>Document</title>
 </head>
 <body>
 <nav>
 	<h1>js шпаргалка </h1>
-	<ul>
-		<li><a href="#">Головна</a></li>
-		<li><a href="#">Категорії</a></li>
+	<ul class="nav-menu">
+		<li><button>Головна</button></li>
+		<li><button>Категорії</button></li>
 	</ul>
 </nav>	
 <header>
@@ -20,26 +21,29 @@
 <main>
 	<section>
 		<h3>котент</h3>
-		<div>
+		<div class="image-block">
 			<div>
 				<h4>Ангулар</h4>
-				<img src="" alt="">
-				<a href="https://angular.io/" target="_blank">подробнее</a>
+				<a class="move" href="https://angular.io/" target="_blank"><button>link</button></a>
+				<img src="images/angular.png" alt="">
 			</div>
 			<div>
 				<h4>React</h4>
-				<a href="https://ru.reactjs.org/" target="_blank">подробнее</a>
-				<img src="" alt="">
+				<a href="https://ru.reactjs.org/" target="_blank"><button>link</button></a>
+				<img src="images/react.png" alt="">
 			</div>
 			<div>
 				<h4>Vue</h4>
-				<a href="https://vuejs.org/" target="_blank">подробнее</a>
-				<img src="" alt="">
+				<a href="https://vuejs.org/" target="_blank"><button>link</button></a>
+				<img src="images/vue.png" alt="">
 			</div>
 		</div>
 	</section>
-	<section>
-		<h3>Галерея</h3>
+	<section >
+		<div>
+		<h3 class="galery">Галерея</h3>
+		<img class="image" src="images/gallery.jpg" alt="">
+	</div>
 	</section>
 </main>
 <footer>нижня частина</footer>

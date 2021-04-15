@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: red;
+}
+nav{
+    background-color: seagreen;
+    display: flex;
+}
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu{
+    color: rgb(94, 6, 67);
+    padding-left: 10px;
+}
+
+header{
+    background-color: midnightblue;
+}
+
+header h2{
+    color: olive;
+    font-size: 60px;
+    text-align: center;
+    padding: 190px 0;
+}
+
+h3{
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.galery{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.image-block img {
+    padding: 20;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
+
+.image-block {
+    display: inline-block;
+    clear: none;
+}
+
+div {
+    float: left;
+}
+
+
+.image {
+    float: left;
+    padding: 20px;
+}
+
+footer {
+    text-transform: uppercase;
+    position: fixed; /* Фиксированное положение */
+    left: 50%; bottom: 0; /* Левый нижний угол */
+    color:black; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
